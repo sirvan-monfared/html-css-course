@@ -1,0 +1,29 @@
+h1 {
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+} 
+
+h2 {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 1.5;
+}

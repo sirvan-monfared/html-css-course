@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+article {
+    border: 4px solid black;
+    width: 900px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.product-title {
+    font-size: 22px;
+    background-color: #f7f7f7;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.shipping {
+    font-size: 12px;
+    color: #777;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.read-more:link, .read-more:visited {
+    color: black;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.read-more:hover, .read-more:active {
+    text-decoration: none;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.details-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.details-list {
+    list-style: square;
+    margin-left: 20px;
+}
+.details-list li {
+    margin-bottom: 10px;
+}
+
+.add-to-cart {
+    background-color: #000;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+    padding: 20px;
+    width: 100%;
+    border-top: 4px solid black;
+}
+.add-to-cart:hover {
+    background-color: #fff;
+    color: #000; 
+}
+
+.sale {
+    background-color: rgb(239, 71, 71);
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 15px;
+    display: inline-block;
+    position: absolute;
+    left: -20px;
+    top: -15px;
+}
+
+.colors {
+    list-style: none;
+}
+.color {
+    height: 30px;
+    width: 30px;
+    background-color: #000;
+}
+.color-blue {
+    background-color: blue;
+}
+.color-yellow {
+    background-color: yellow;
+}
+.color-red {
+    background-color: red;
+}
+.color-purple {
+    background-color: purple;
+}
+.color-pink {
+    background-color: pink;
+}
+
+
+/* Floats */
+/* .product-image {
+    float: left;
+    margin-right: 40px;
+}
+
+.product-info {
+    width: 281px;
+    float: left;
+    margin-right: 40px;
+}
+
+.product-details {
+    width: 281px;
+    float: left;
+} */
+
+/* .clearfix::after {
+    content: '';
+    display: block;
+    clear:both;
+} */
+
+/* .price {
+    float: left;
+}
+.shipping {
+    float: right;
+    margin-top: 10px;
+}
+.description {
+    clear: both;
+} */
+
+/* Flexbox */
+.container {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.colors {
+    display: flex;
+    gap: 10px;
+}
+.product-details {
+    flex: 1;
+}
+.product-info {
+    flex: 1;
+}

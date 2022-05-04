@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox overview</title>
+
+    <style>
+        body {
+            direction: rtl;
+        }
+
+        .el-1 {
+           background-color: darkslateblue; 
+        }
+        .el-2 {
+           background-color: brown; 
+        }
+        .el-3 {
+           background-color: darkgoldenrod;
+           height: 130px;
+        }
+        .el-4 {
+            background-color: pink; 
+        }
+        .el-5 {
+           background-color: cyan; 
+        }
+        .el-6 {
+           background-color: darkolivegreen; 
+        }
+        .el-7 {
+            background-color: green; 
+        }
+        .el-8 {
+            background-color: deeppink; 
+        }
+
+        .container {
+            font-family: sans-serif;
+            background-color: silver;
+            font-size: 25px;
+            margin: 40px;
+
+            /* flexbox */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .el {
+            /* default 
+            flex-grow: 0
+            flex-shrink: 1
+            flex-basis: auto
+            */
+
+            /* flex-basis: 200px;
+            flex-shrink: 0; */
+            /* flex-basis: 0;
+            flex-grow: 1; */
+
+            flex: 1 0 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="el el-1">این من هستم و این هم یک آیینه تمام نما از من است</div>
+        <div class="el el-2">Sirvan</div>
+        <div class="el el-3">Monfared</div>
+        <div class="el el-4">Html</div>
+        <div class="el el-5">CSS</div>
+        <!-- <div class="el el-6">Tutorial</div> -->
+        <!-- <div class="el el-7">Season</div> -->
+        <!-- <div class="el el-8">Four</div> -->
+    </div>
+</body>
+</html>

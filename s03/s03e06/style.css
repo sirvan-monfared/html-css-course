@@ -1,0 +1,54 @@
+h1, 
+h2, 
+p, 
+h3, 
+li {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+} 
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+li {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+footer p {
+   font-style: italic; 
+}
+
+/*
+article header p {
+    color: red;
+}
+*/
+#author {
+    color: red;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related {
+    list-style: none;
+}
