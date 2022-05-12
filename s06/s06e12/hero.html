@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Rubik', sans-serif;
+            color: #444;
+        }
+        nav.container {
+            font-size: 20px;
+            font-weight: 700;
+
+            display: flex;
+            justify-content: space-between;
+            color: #fff;
+            padding-top: 32px;
+        }
+
+        header {
+            height: 100%;
+            height: 100vh;
+
+            background: linear-gradient(rgba(34,34,34, 0.7), rgba(0,0,0,0.7)), url('restaurant2.jpg');
+            background-size: cover;
+            /* background-repeat: no-repeat; */
+        }
+
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+            line-height: 1.1;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1;
+            margin-bottom: 48px;
+        }
+        .btn:link, .btn:visited {
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            padding: 16px 32px;
+            display: inline-block;
+            border-radius: 9px;
+        }
+        h2 {
+            font-size: 44px;
+            margin-bottom: 48px;
+        }
+        section {
+            padding: 96px 0;
+            background-color: #f7f7f7;
+        }
+        .container {
+            width: 1200px;
+            margin: 0 auto;
+            color: white;
+        }
+        .header-container {
+            width: 1200px;
+
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+        .inner-container {
+            width: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATON</div>
+        </nav>
+
+        <div class="header-container">
+            <div class="inner-container">
+                <h1>A healthy meal delivered to your door</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, neque quibusdam recusandae nostrum</p>
+                <a href="#" class="btn">Start eating well!</a>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div>
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis excepturi eligendi adipisci nulla quae, reiciendis accusantium nobis consequatur laboriosam quasi reprehenderit nisi sit dolor. Nobis tenetur illo sapiente ullam cum.</p>
+        </div>
+    </section>
+</body>
+</html>

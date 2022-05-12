@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            
+        }
+        html {
+            font-family: 'Rubik', sans-serif;
+            color: #444;
+        }
+        .container {
+            margin: 0 auto;
+            width: 1200px;
+        }
+        nav {
+            font-size: 20px;
+            font-weight: 700;
+            
+            display: flex;
+            justify-content: space-between;
+            padding-top: 32px;
+        }
+        h1 {
+            font-size: 52px;
+            margin-bottom: 32px;
+            line-height: 1.05;
+        }
+        p {
+            font-size: 20px;
+            line-height: 1;
+            margin-bottom: 48px;
+        }
+        .btn:link, .btn:visited {
+            font-size: 20px;
+            font-weight: 600;
+            background-color: #e67e22;
+            color: #fff;
+            text-decoration: none;
+            padding: 16px 32px;
+            display: inline-block;
+            border-radius: 9px;
+        }
+        h2 {
+            font-size: 44px;
+        }
+        section {
+            padding: 96px 0;
+        }
+        
+        header {
+            height: 100vh;
+            background-image: linear-gradient(rgba(34,34,34,0.7), rgba(0,0,0,0.7)), url(restaurant2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: #fff;
+        }
+        .header-container {
+            width: 1200px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .header-container-inner {
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div>LOGO</div>
+            <div>NAVIGATION</div>
+        </nav>
+
+        <div class="header-container">
+            <div class="header-container-inner">
+                <h1>A healthy meal delivered to your door</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus tempora ad necessitatibus veritatis</p>
+                <a href="#" class="btn"> Start easting well</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div>
+            <h2>Some random heading</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam tempore doloribus voluptate aliquid! Architecto soluta modi nostrum numquam porro, quia inventore, vel dolorum dolore facilis dignissimos at delectus maiores eligendi?</p>
+        </div>
+    </section>
+</body>
+</html>
