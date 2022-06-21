@@ -1,26 +1,33 @@
-# Omnifood
+# غذاساز
 
-## About Omnifood
+## درباره غذاساز
 
-We are a technology company first, but with a major focus on consumer well-being through a healthy diet. Most people are very busy with their jobs, family and friends, and other important activities, which doesn't leave much time for cooking. This might lead to a poor diet and lasting health consequences. We want to solve this problem by using an AI-centric approach. Users can use our app to select their diet and foods they like and dislike, and our AI algorithm will create a custom and individual weekly meal plan. But we don't stop there. We partner with restaurants and other cooking partners to actually cook and deliver all meals from the generated meal plans, in selected cities. All this will be packed up in a monthly subscription, where users can choose between receiving one or two meals per day, every single day of the month.
+ما یک شرکت دانش بنیان هستیم که تمرکز اصلی ما روی سلامت مکشتریان با استفاده از یک رژیم غذایی سالم است.
+اکثر مردم مشغول کار و خانواده و دوستان و کارهای مهم دیگر زندگی هستند و وقت کافی برای آشپزی ندارند. این امر ممکن است منجر به رژیم غذایی بد و ضررهای جبران ناپذیر بر سلامت بدن شود
+قصد ما این است که با یک روش مبتنی بر هوش مصنوعی این مشکل را حل کنیم.
+کاربران میتوانند با استفاده از اپلیکیشن ما رژیم غذایی و غذاهایی که دوست دارند (و یا دوست ندارند) را مشخص کنند تا هوش مصنوعی ما یک برنامه غذایی هفتگی کاملا شخصی سازی شده را برای آن ها فراهم کند
 
-## Branding
+ولی ما به همین بسنده نکردیم. ما با بسیاری از رستوران ها و غذاخوری های بزرگ همکاری میکنیم تا همان غذاها را برای شما آماده کنند و طبق برنامه هفتگی به شما تحویل دهند.
+تمام این ها به واسطه یک اشتراک ماهانه در اختیار شما قرار می گیرد و می توانید تعداد وعده های غذایی در روز (یک یا دو وعده) را انتخاب کنید
+
+
+## برندینگ
 
 شعار اصلی: یه غذای سالم، که هر روز دم خونته
 
 رنگ برند: #e67e22
 
-## Omnifood Website Content
+## محتویات سایت
 
-### Summary
+### خلاصه
 سیستم تحویل غذای هوشمند که دوباره غذاهای سالم رو بهت برمیگردونه. شخصی سازه شده بسته به ذائقه و نیازهای غذایی شما. تا حالا بیش تر از 250,000 غذا به مشتری ها تحویل دادیم
 
-### Omnifood features
+### ویژگی ها
 
-Never cook again!: Our subscriptions cover 365 days per year, even including major holidays.
-Local and organic: Our cooks only use local, fresh, and organic products to prepare your meals.
-No waste: All our partners only use reusable containers to package all your meals.
-Pause anytime: Going on vacation? Just pause your subscription, and we refund unused days.
+دیگه غذا نپز: ما 365 روز سال رو پوشش میدیم. حتی روزهای تعطیل
+محلی و ارگانیک: غذاهای ما فقط از مواد اولیه محلی، تازه و ارگانیک تهیه میشن
+بدون دوررریز: تمام غذاها در ظرف های قابل بازیافت و بدون دورریز سرو میشه
+روزشمار: داری میری مسافرت؟ اون چند روز رو کنسل کن. پولت رو برمیگردونیم
 
 ### چطور کار می کنه
 
@@ -39,103 +46,116 @@ Pause anytime: Going on vacation? Just pause your subscription, and we refund un
 بهترین سرآشپزهای شهر، غذای انتخابی هر روزت رو آماده میکنن و هرجایی که خودت بخوای، غذا رو برات میاریم. میتونی به صورت روزانه محل و زمان تحویل غذا رو تغییر بدی! 
 
 
-### Omnifood works with any diet
+### غذاساز با همه رژیم های غذایی سازگاره
+(سازگار با تمام رژیم های غذایی)
 
-Vegetarian
-Vegan
-Pescatarian
-Gluten-free
-Lactose-free
-Keto
-Paleo
-Low FODMAP
-Kid-friendly
+گیاه خواری
+سبزیجات
+ماهی خواری
+بدون گلوتن
+بدون لاکتوز
+بدون کربوهیدرات
+ارگانیک
+بدون فادمپ
+مختص کودک
 
-### Sample meals
+### نمونه غذاها
 
-**Omnifood AI chooses from 5,000+ recipes**
+**وعده موردعلاقه ات از بین 5000 غذا با هوش مصنوعی غذاساز**
 
-Meal 1: Japanese Gyozas
+غذای 1: هیوزای ژاپنی
 
-- Category: Vegetarian
-- Calories: 650
-- NutriScore (Registered): 74
-- Average rating: 4.9
-- Number reviews: 537
+- دسته بندی: سبزیجات
+- کالری: 650
+- ارزش غذایی: 74
+- میانگین امتیاز: 4.9
+- دیدگاه ها: 537
 
-Meal 2: Avocado Salad
+غذای 2: سالاد آووکادو
 
-- Category: Vegan and Paleo
-- Calories: 400
-- NutriScore (Registered): 92
-- Average rating: 4.8
-- Number reviews: 441
+- دسته بندی: گیاه خواری و ارگانیک
+- کالری: 400
+- ارزش غذایی: 92
+- میانگین امتیاز: 4.8
+- دیدگاه ها: 441
 
-### We offer a free sample meal
+### تست رایگان که ضرر نداره
 
-[Create simple form for users to sign up]
+[یک فرم ساده برای ثبت نام کاربران]
 
-Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!
+غذاهای سالم، خوشمزه و بدون دردسر منتظر شماست. از همین امروز رژیم غذایی سالم رو شروع کن
+میتونی هر وقت خواستی لغو کنی. اولین غذات هم به حساب ما! 
 
 ### ما 2 پلان برای قیمت ها داریم
+غذای با کیفیت بخور بدون اینکه ورشکست بشی!
 
-Prices include all applicable taxes. Users can cancel at any time.
+مالیات بر ارزش افزوده در قیمت ها لحاظ شده. هر وقت خواستید میتونید کنسل کنید
 
-Starter: $399 per month
 
-- 1 meal per day
-- Order times are between 11am and 9pm
-- Delivery is free
+پایه: 3 میلیون تومان در ماه
 
-Complete: $649 per month
+- 1 وعده در روز
+- سفارش از 11 صبح تا 9 شب
+- ارسال رایگان
 
-- 2 meal2 per day
-- Order 24/7
-- Delivery is free
-- Get access to latest recipes
+کامل:  میلیون تومان
 
-### Photo gallery
+- 2 وعده در روز
+- سفارش در 24 ساعت شبانه روز
+- ارسال رایگان
+- دسترسی به جدیدترین غذاها
 
-[Use the 12 photos we provided]
+### گالری تصاویر
+
+[12 تصویر پیوست شده است]
 
 ### رضایت مشتریان
 
-[Photos of customers included]
+یک بار امتحان کن، مشتری میشی!
 
-Inexpensive, healthy and great-tasting meals, without even having to order manually! It feels truly magical. (Dave Bryson)
-The AI algorithm is crazy good, it chooses the right meals for me every time. It's amazing not to worry about food anymore! (Ben Hadley)
-Omnifood is a life saver! I just started a company, so there's no time for cooking. I couldn't live without my daily meals now! (Steve Miller)
-I got Omnifood for the whole family, and it frees up so much time! Plus, everything is organic and vegan and without plastic. (Hannah Smith)
+[تصاویر مشتری ها به پیوست می باشد]
 
-### Section with logos of featured publications [see images]
+غذاهای ارزان قیمت، سالم و خوشمزه، بدون اینکه مجبورباشی هر روز سفارش بدی! واقعا معجزه میکنه 
+(میلاد صفائی)
 
-### Contact information
+عملکرد هوش مصنوعی غذاساز حرف نداره، دقیقا اون چیزی که نیاز دااری رو برات انتخاب میکنه. خیلی خوبه که هر دفعه نگران غذای بعدیت نباشی!
+ (مریم طهانی)
 
-Address: 623 Harrison St., 2nd Floor, San Francisco, CA 94107
-Phone: 415-201-6370
-Email: hello@omnifood.com
+غذاساز واقعا معرکه است! من به تازگی یه شرکت راه انداختم و حقیقتا وقتی برای آشپزی ندارم. حالا دیگه بدون غذاهای روزانه غذاساز، نمیتونم زندگی کنم! 
+(پریسا الیاسی)
 
-Social profiles: instagram, facebook, twitter [links to them not available yet]
+من اشتراک غذاساز رو برای همه افراد خانواده تهیه کردم و نمیدونید که چقدر توی وقتم صرفه جویی شده. تازه همه چیز هم ارگانیک و بدون پلاستیکه
+ (حسین مرتضوی)
 
-### Additional links [links not available yet]
 
-Create account
-Sign in
-iOS app
-Android app
 
-About Omnifood
-For Business
-Cooking partners
-Careers
+### اطلاعات تماس
 
-Recipe directory
-Help center
-Privacy & terms
+آدرس: تهران ، فلکه سوم تهرانپارس ، خیابان 195 غربی ، خیابان طاهری ، ساختمان پزشکان 2 ، طبقه سوم ، واحد 15 
+Phone: 02132564589
+Email: info@ghazasaz.com
+
+شبکه های اجتماعی: instagram, facebook, twitter [لینک ها فعلا آماده نیست]
+
+### سایر لینک ها [لینک ها فعلا آماده نیست]
+
+ساخت حساب کاربری
+ورود
+اپلیکیشن آی او اس
+اپلیکیشن اندروید
+
+درباره غذاساز
+نسخه تجاری
+شرکت های همکار
+حرفه ها
+
+لیست غذاها
+مرکز پشتیبانی
+قوانین و مقررات
 
 ######
 
-## Sections
+## بخش ها
 
 - Logo + Navigation
 - Hero

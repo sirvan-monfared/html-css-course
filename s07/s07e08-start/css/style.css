@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: sans-serif;
+    line-height: 1;
+    color: #333;
+}
+html {
+    /* font-size: 10px; */
+    /* 10px/16px = 0.625 * 100 = 62.5% */
+    font-size: 62.5%;
+}
+
+.test {
+    max-width: 70rem;
+    background-color: red;
+    padding: 100px;
+    margin-top: 100px;
+}
