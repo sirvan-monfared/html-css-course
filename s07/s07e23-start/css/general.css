@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot');
+	src: url('../fonts/eot/IRANSansWeb_Bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot');
+	src: url('../fonts/eot/IRANSansWeb_Medium.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb_Medium.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb_Medium.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb_Medium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: IRANSans;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/eot/IRANSansWeb.eot');
+	src: url('../fonts/eot/IRANSansWeb.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/woff2/IRANSansWeb.woff2') format('woff2'),  /* FF39+,Chrome36+, Opera24+*/
+		 url('../fonts/woff/IRANSansWeb.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/ttf/IRANSansWeb.ttf') format('truetype');
+}
+
+
+/*-------------------------
+        GENREAL
+--------------------------*/
+
+body {
+    color: sans-serif;
+    line-height: 1;
+    color: #333;
+
+    direction: rtl;
+    font-family: IRANSans, sans-serif
+}
+html {
+    /* font-size: 10px; */
+    /* 10px/16px = 0.625 * 100 = 62.5% */
+    font-size: 62.5%;
+}
+.heading-primary, .heading-secondary, .heading-tertiary {
+    font-weight: 700;
+    color: #333;
+    letter-spacing: -0.5px;
+    line-height: 1.2;
+}
+.heading-primary {
+    font-size: 5.2rem;
+    margin-bottom: 3.2rem;
+}
+.heading-secondary {
+    font-size: 4.4rem;
+    margin-bottom: 9.6rem;
+}
+.heading-tertiary {
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+}
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #cf711f;
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}
+
+.btn:link, .btn:visited {
+    font-size: 2rem;
+    padding: 1.6rem 3.2rem;
+    display: inline-block;
+    border-radius: 9px;
+    text-decoration: none;
+
+    transition: all 0.3s;
+    font-weight: 500;
+}
+
+.btn--full:link, .btn--full:visited {
+    background-color: #e67e22;
+    color: #fff;
+}
+.btn--outline:link, .btn--outline:visited {
+    background-color: #fff;
+    color: #555;
+}
+.btn--full:hover, .btn--full:focus {
+    background-color: #cf711f;
+}
+.btn--outline:hover, .btn--outline:focus {
+    background-color: #fdf2e9;
+    box-shadow: inset 0 0 0 3px #fff;
+}
+.grid {
+    display: grid;
+    row-gap: 9.6rem;
+    column-gap: 6.4rem;
+}
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-center-v {
+    align-items: center;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+.margin-right-sm {
+    margin-right: 1.6rem !important;
+}
+.margin-bottom-md {
+    margin-bottom: 4.8rem !important;
+}
+strong {
+    font-weight: 500;
+}
+.center-text {
+    text-align: center !important;
+}
+.link:link, .link:visited {
+    color: #e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    transition: all 0.3s;
+    padding-bottom: 0.2rem;
+    display:inline-block;
+}
+.link:hover, .link:active {
+   border-bottom: 1px solid transparent;
+}
+
+.list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+.list-icon {
+    width: 3rem;
+    height: 3rem;
+    color: #e67e22;
+}
+.list-item {
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1.6rem;
+}
