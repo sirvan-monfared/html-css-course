@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: sans-serif;
+    line-height: 1;
+    color: #333;
+}
+html {
+    /* font-size: 10px; */
+    /* 10px/16px = 0.625 * 100 = 62.5% */
+    font-size: 62.5%;
+}
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    max-width: 130rem;
+    margin: 0 auto;
+}
+.hero-img {
+    width: 100%;
+}
+

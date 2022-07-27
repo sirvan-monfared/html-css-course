@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebApp</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        nav, menu, section, aside, main {
+            padding: 24px;
+        }
+
+        body {
+            font-family: sans-serif;
+            color: #343a40;
+            font-size: 24px;
+
+            height: 100vh;
+
+            display: grid;
+            grid-template-columns: 80px 400px 1fr 250px;
+            grid-template-rows: 80px 1fr;
+            text-align: center;
+            font-weight: bold;
+        }
+        nav {
+            background-color: #343a40;
+            color: #fff;
+
+            grid-row: 1 / -1; 
+        }
+        menu {
+            background-color: #7048e8;
+            color: #fff;
+
+            grid-column: 2/-1;
+
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 12px;
+        }
+        aside {
+            background-color: #e9ecef;
+        }
+        section {
+            background-color: #e7ecef;
+
+            overflow: scroll;
+
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        button {
+            background-color: #5f3dc4;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            padding: 8px 12px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        button:last-child {
+            background-color: #d6336c;
+            margin-left: auto;
+        }
+
+        .email {
+            background-color: #ced4da;
+            padding: 40px;
+            height: 96px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+    </style>
+</head>
+<body>
+    <nav>NAV</nav>
+    <menu>
+        <button>New</button>
+        <button>Reply</button>
+        <button>Forward</button>
+        <button>Mark Unread</button>
+        <button>Trash</button>
+    </menu>
+    <section>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+        <div class="email">EMAIL</div>
+    </section>
+    <main>EMAIL VIEW</main>
+    <aside>EMAIL DETAILS</aside>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Table</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Inter, sans-serif;
+            color: #343a40;
+            line-height: 1;
+
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 800px;
+            margin-top: 100px;
+            border-collapse: collapse;
+            font-size: 18px;
+            
+            /* border: 1px solid #343440; */
+        }
+        td, th {
+            padding: 16px;
+            text-align: left;
+            width: 25%;
+            /* border: 1px solid #343440; */
+        }
+        thead tr {
+            background-color: #087f5b;
+            color: #fff;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #f8f9fa;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #e9ecef;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Chair</th>
+                <th>The laid Back</th>
+                <th>The Worker Bee</th>
+                <th>The chair 4/2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Width</td>
+                <td>80cm</td>
+                <td>60cm</td>
+                <td>220cm</td>
+            </tr>
+            <tr>
+                <th>Height</th>
+                <td>100cm</td>
+                <td>110cm</td>
+                <td>900cm</td>
+            </tr>
+            <tr>
+                <th>Depth</th>
+                <td>70cm</td>
+                <td>65cm</td>
+                <td>80cm</td>
+            </tr>
+            <tr>
+                <th>Weight</th>
+                <td>16cm</td>
+                <td>22cm</td>
+                <td>80cm</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
